@@ -3,7 +3,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitin
 task.wait(2)
 
 for _, v in pairs(game:GetDescendants()) do
-    if v:IsA("TextLabel") and v.Text == "Fisch Hub" then
+    if v:IsA("TextLabel") and v.Text == "Banana Cat Hub" then
         v.Text = "Max hub" -- aqui você bota o título novo
     end
 end
